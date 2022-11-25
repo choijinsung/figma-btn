@@ -1,0 +1,168 @@
+body {
+  position: relative;
+}
+
+.btn {
+  box-sizing: border-box;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 50px;
+}
+.btn.btn_first {
+  top: 60px;
+  left: 183px;
+  background: #fff;
+  border: 2px solid #7451c0;
+  border-radius: 2px;
+}
+.btn.btn_second {
+  top: 120px;
+  left: 183px;
+  background: #7451c0;
+  border-radius: 3px;
+}
+.btn.btn_second:hover {
+  background: #A67CFF;
+  border-radius: 25px;
+}
+.btn.btn_third {
+  top: 180px;
+  left: 183px;
+  background: #7451c0;
+  border-radius: 3px;
+  width: 30%;
+}
+.btn_text {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 23px;
+  color: #fff;
+}
+.btn_first .btn_text {
+ color: #000; 
+}
+.btn_img {
+  margin-left: 10px;
+}
+.btn_list_horizontal {
+  position: absolute;
+  top: 240px;
+  left: 183px;
+}
+.btn_list_horizontal button {
+  background: #7451c0;
+  color: #fff;
+  box-sizing: border-box;
+  width: 120px;
+  height: 50px;
+  display: inline-block;
+  float: left;
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 23px;
+}
+.btn_list_horizontal button:hover {
+  background: #A67CFF;
+}
+.btn_list_vertical {
+  position: absolute;
+  top: 300px;
+  left: 183px;
+}
+.btn_list_vertical button {
+  background: #7451c0;
+  color: #fff;
+  box-sizing: border-box;
+  width: 120px;
+  height: 50px;
+  display: block;
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 23px;
+}
+.btn_list_vertical button:hover {
+  background: #A67CFF;
+}
+
+.big_container {
+  width: 100%;
+  height: 250px;
+  position: absolute;
+  top: 600px;
+  padding-bottom: 20px;
+}
+.container {
+  width: 500px;
+  height: 190px;
+  position: absolute;
+  display: flex;
+  left: 183px;
+  border: 0.5px solid #666;
+}
+.text_box {
+  position: absolute;
+  top: 50px;
+  left: 150px;
+}
+.text_box::before{
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: -6rem;
+  /* Font Awesome */
+  font-family: "Font Awesome 5 Pro";
+  font-size: 60px;
+  font-weight: 900;
+  content: "\f3ed";
+  color: #666;
+}
+.text_box .text1 {
+  font-family: "Noto Sans KR";
+  font-size: 0.75rem;
+  color: #666;
+}
+.text_box .text2 {
+  font-family: "Noto Sans KR";
+  font-size: 1rem;
+  color: #333;
+}
+.text_box .text3 {
+  font-family: "Noto Sans KR";
+  font-size: 0.75rem;
+  color: #A67CFF;
+  position: relative;
+}
+.text_box .text3::after {
+  display: inline-block;
+  position: absolute;
+  top: 0.1rem;
+  left: 4rem;
+  /* Font Awesome */
+  font-family: "Font Awesome 5 Pro";
+  font-weight: 900;
+  content: "\f138";
+  color: #a67cff;
+}
+.login_btn {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+}
+.login_btn button {
+  width: 100px;
+  height: 80px;
+  background: #7451c0;
+  border-radius: 2px;
+  font-family: "Noto Sans KR";
+  font-size: 1rem;
+  color: #fff;
+}
